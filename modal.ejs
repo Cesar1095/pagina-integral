@@ -1,0 +1,38 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="card">
+				<h3 class="card-header bg-primary"><i>Ventana modal o emergente</i></h3>
+					<div class="card-block">
+						<img class="intel d-block img-fluid" src="img/ventana.png">
+						<p class="card-text"> 
+							Se refiere a cualquier ventana que se abre de forma automática, es decir, sin que el usuario interactúe haciendo clic en la interfaz. Pueden aparecer al cargar la página, después de un periodo de tiempo o cuando se sitúa el puntero en un punto particular. Este último caso se usa generalmente para ofrecer contenido adicional cuando el usuario va a abandonar el sitio.
+						</p>
+
+						<h3>Codigo HTML</h3>
+						<img class="intel d-block img-fluid" src="img/modal2.png">
+						<ul>
+							<li><b>Línea 1:</b> creamos el contenedor principal con un ID único (en nuestro caso “miModal”). Es importante quedarnos con este ID ya que será el que usemos a la hora de llamar a la función que muestra este contenedor.</li>
+							<li><b>Linea 2:</b> es el contenedor donde está definido el tamaño del contenedor (por defecto 600px).</li>
+							<li><b>Línea 3:</b> se trata de un contenedor donde están asociados estilos tales como fondo del modal, bordes, sombreados, etc.</li>
+							<li><b>Línea 4:</b> en esta línea, Bootstrap mete el DIV que contiene el botón de cerrar el modal así como el título del modal en un encabezado (H4).</li>
+							<li><b>Línea 10:</b> en el div con clase “modal-body” es donde insertaremos el contenido que queremos que haya en el modal.</li>
+						</ul>
+
+						<p>Una vez que tenemos el modal creado y, por defecto, oculto, tenemos que elegir la manera de que se muestre al usuario. Para ello, vamos a usar un botón de los que viene predeterminados en la librería de Bootstrap.</p>
+						<img class="intel d-block img-fluid" src="img/boton2.png">
+						<p>Como vemos, el atributo “data-target” es el encargado de contener el identificador del DIV del modal: miModal. Si cambiáramos uno u otro dejarían de funcionar. Tienen que tener el mismo ID obligatoriamente.</p>
+						<p>Como resultado:</p>
+						<img class="intel d-block img-fluid" src="img/result.png">
+
+
+
+
+
+
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+
